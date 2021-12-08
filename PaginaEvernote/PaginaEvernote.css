@@ -1,0 +1,52 @@
+
+header .row {    
+    align-content: center; 
+}
+
+.contenedorAlineamientoVertical {
+    display: flex; 
+    align-items: center; 
+    height: 200px;
+}
+
+nav li {
+    list-style: none;
+}
+
+a {
+    color:yellowgreen;
+    padding: 20px;
+}
+
+h1 {
+    color: cadetblue;
+}
+
+#botonesCentrales {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+#botonesCentrales * {
+    padding: 20px;
+}
+
+.card {
+    border-style: none;
+}
+
+footer {
+    height: 300px;
+}
+#videoLibrary {
+    text-align: center;
+    margin-top: 50px;
+}
+
+button {
+    color:green
+    border-radius 6px;
+    background-color: rgb(197, 247, 146);
+}
+
